@@ -24,15 +24,18 @@
 }
 
 .burger__line:first-child {
+    transition: 0s transform;
     top: 2px;
 }
 
 .burger__line:nth-child(2){
     top: 8px;
+    transition: transform 0s;
 }
 
 .burger__line:last-child{
     top: 14px;
+    transition: transform 0s;
 }
 
 .burger--active .burger__line:first-child {
