@@ -1,0 +1,177 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+
+
+    padding: 16px 32px;
+    max-width: 342px;
+    max-height: 56px;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    transition: var(--main-trs);
+}
+
+.subscribe-btn {
+    margin: 0;
+    padding: 16px 48px;
+    width: 179px;
+    height: 56px;
+
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--black);
+}
+
+.read-more-btn {
+    padding: 16px 46px;
+    width: 204px;
+    height: 56px;
+    background-color: var(--yellow);
+
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--black);
+}
+
+.view-all-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--purple);
+}
+
+.prev-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: var(--light);
+    background-image: url("../../img/prev-btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: transform 0.5s ease;
+}
+
+
+.next-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: var(--light);
+    background-image: url("../../img/next-btn.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: transform 0.2s ease;
+}
+
+.all-posts__btn {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--medium-grey);
+
+    padding: 0;
+}
+
+.tag__btn {
+    padding: 8px 38px;
+    align-items: center;
+    text-align: center;
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 229%;
+    color: var(--black);
+}
+
+@media (any-hover: hover) {
+    .read-more-btn:hover {
+        background-color: #edc14a;
+        transform: scale(1.05);
+    }
+
+    .subscribe-btn:hover {
+        background-color: #edc14a;
+        transform: scale(1.05);
+    }
+
+    .view-all-btn:hover {
+        text-decoration: underline;
+        transform: scale(1.05);
+    }
+
+    .prev-btn:hover {
+        background-color: var(--black);
+        background-image: url(../../img/prev-hover.svg);
+        transform: scale(1.1);
+    }
+
+    .next-btn:hover {
+        background-color: var(--black);
+        background-image: url(../../img/next-hover.svg);
+        transform: scale(1.1);
+    }
+
+    .all-posts__btn:hover {
+        color: var(--black);
+        transform: scale(1.16);
+    }
+
+    .tag__btn:hover {
+        background-color: var(--yellow);
+        border-radius: 50px;
+    }
+}
+
+.read-more-btn:active {
+    background-color: var(--light-yellow);
+    transform: scale(0.95);
+}
+
+.subscribe-btn:active {
+    background-color: var(--light-grey);
+    transform: scale(0.95);
+}
+
+.view-all-btn:active {
+    transform: scale(0.95);
+}
+
+.next-btn:active {
+    transform: scale(0.9);
+}
+
+.prev-btn:active {
+    transform: scale(0.9);
+}
+
+.all-posts__btn:active {
+    color: var(--black);
+    transform: scale(0.9);
+}
+
+.tag__btn:active {
+    background-color: var(--yellow);
+    opacity: 1;
+    outline: none;
+    transform: scale(0.95);
+    border-radius: 50px;
+}

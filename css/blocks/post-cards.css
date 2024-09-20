@@ -1,0 +1,39 @@
+.posts__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    position: relative;
+
+    transition: var(--main-trs);
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.post__item {
+    position: relative;
+}
+
+.post-card__descr {
+    margin: 0;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--black);
+
+    max-width: 370px;
+}
+
+@media (any-hover: hover) {
+    .post__card:hover {
+        background-color: var(--light-yellow);
+        transform: scale(1.05);
+    }
+}

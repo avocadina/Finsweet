@@ -1,0 +1,69 @@
+.list-of-authors {
+    margin-bottom: var(--section-gap);
+}
+
+.list-of-authors__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.authors__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.author {
+    max-width: 296px;
+    max-height: 324px;
+    padding: 40px 67px;
+    background-color: var(--light-grey);
+
+    transition: var(--main-trs);
+}
+
+.author__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.author__image {
+    display: block;
+    border-radius: 50px;
+
+    margin: 0;
+    margin-bottom: 20px;
+    object-fit: cover;
+    background-color: inherit;
+}
+
+.author__name {
+    margin: 0;
+    width: max-content;
+}
+
+.author__descr {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--medium-grey);
+
+    max-width: max-content;
+}
+
+@media (any-hover: hover) {
+    .author:hover {
+        background-color: var(--light-yellow);
+        transform: scale(1.05);
+    }
+}

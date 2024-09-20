@@ -1,0 +1,54 @@
+.privacy-policy {
+    margin-bottom: var(--section-gap);
+}
+
+.pp__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--section-gap);
+}
+
+.pp__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 4px;
+    width: 100%;
+
+    background-color: var(--lavender);
+}
+
+.pp__span {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: var(--black);
+
+    opacity: 0.6;
+}
+
+.pp__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 241px;
+}
+
+.pp__chapter {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pp__descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--dark-grey);
+}

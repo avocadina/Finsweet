@@ -1,0 +1,8 @@
+.logo {
+    margin: 0;
+    transition: var(--main-trs);
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,37 @@
+.about-us__hero {
+    margin-top: var(--section-gap);
+    margin-bottom: -63px;
+}
+
+.au-hero__content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    padding-right: 38px;
+    padding-left: 109px;
+}
+
+.au-hero__card {
+    max-width: 50%;
+    padding: 64px;
+
+    transition: var(--main-trs);
+
+    background-color: var(--light);
+}
+
+.au-hero__text {
+    max-width: 50%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--dark-grey);
+}
+
+@media (any-hover: hover) {
+    .au-hero__card:hover {
+        transform: scale(1.05);
+    }
+}

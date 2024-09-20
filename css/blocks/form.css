@@ -1,0 +1,96 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.form__text {
+    margin: 0;
+    font-family: var(--second-family);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: -0.06em;
+    color: var(--light);
+
+    max-width: 562px;
+}
+
+.footer-form__input {
+    display: flex;
+    align-self: center;
+    gap: 24px;
+}
+
+.form__input {
+    border: 1px solid var(--dark-grey);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 323px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--light);
+    background-color: inherit;
+}
+
+.form__btn {
+    background-color: var(--yellow);
+}
+
+.cu__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.cu__form .form__input {
+    width: 768px;
+    padding: 24px;
+    color: var(--black);
+}
+
+.cu__form .form__btn {
+    width: 768px;
+    max-width: 768px;
+}
+
+.form__select {
+    appearance: none;
+    position: relative;
+
+    border: 1px solid var(--dark-grey);
+    padding-right: 33px;
+    padding-left: 24px;
+    width: 768px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    background-color: inherit;
+    background-image: url("../../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 33px) center;
+}
+
+#message {
+    height: 144px;
+    padding: 24px;
+    align-items: flex-start;
+    text-align: start;
+    resize: none;
+}
+
+@media (any-hover: hover) {
+    .form__input:hover {
+        border: 2px solid var(--yellow);
+    }
+
+    .form__select:hover {
+        border: 2px solid var(--yellow);
+    }
+}

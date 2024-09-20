@@ -1,0 +1,32 @@
+.nav__list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--light);
+
+    transition: var(--main-trs);
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+    padding: 12px;
+}
+
+@media (any-hover: hover) {
+    .nav__item:hover {
+        text-decoration: underline;
+        color: var(--yellow);
+    }
+}
+
+.nav__item:active {
+    transform: scale(0.95);
+}

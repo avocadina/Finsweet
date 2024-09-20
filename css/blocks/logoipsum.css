@@ -1,0 +1,41 @@
+.logoipsum {
+    margin-bottom: var(--section-gap);
+}
+
+.logoipsum__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.logoipsum__par {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--medium-grey);
+    opacity: 0.6;
+
+    padding-right: 10px;
+}
+
+.par__span {
+    margin: 0;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+    line-height: 133%;
+    color: var(--medium-grey);
+
+}
+
+.logoipsum__par .logoipsum__span {
+    opacity: 1;
+}
+
+.logoipsum__span {
+    opacity: 0.8;
+}

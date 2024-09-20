@@ -1,0 +1,83 @@
+.title {
+    margin: 0;
+}
+
+.title--16 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: var(--light);
+}
+
+.title--mb-16 {
+    margin-bottom: 16px;
+}
+
+
+.title--16 .startap {
+    font-weight: 900;
+}
+
+.title--16 .author-james {
+    color: var(--yellow);
+}
+
+.title--24 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1.25rem, 1.179rem + 0.36vw, 1.5rem);
+    line-height: 133%;
+    color: var(--black);
+}
+
+.title--28 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1.5rem, 1.429rem + 0.36vw, 1.75rem);
+    line-height: 143%;
+    letter-spacing: -0.04em;
+    color: var(--black);
+}
+
+.title--36 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(1.75rem, 1.607rem + 0.71vw, 2.25rem);
+    line-height: 133%;
+    letter-spacing: -0.06em;
+    color: var(--black);
+}
+
+.title--48 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(2rem, 1.714rem + 1.43vw, 3rem);
+    line-height: 133%;
+    letter-spacing: -0.04em;
+    color: var(--black);
+}
+
+.title--56 {
+    margin-bottom: 24px;
+
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: clamp(2.375rem, 2.054rem + 1.61vw, 3.5rem);
+    line-height: 114%;
+    letter-spacing: -0.04em;
+    color: var(--light);
+}
+
+.author-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--dark-grey);
+}
+
+.author-title .author-john {
+    color: var(--purple);
+}

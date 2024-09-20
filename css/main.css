@@ -1,0 +1,63 @@
+/* global */
+@import url('./normalize.css');
+@import url('./vars.css');
+@import url('./settings.css');
+@import url('./fonts.css');
+
+/* blocks */
+@import url('./blocks/logo.css');
+@import url('./blocks/centered.css');
+@import url('./blocks/grid.css');
+@import url('./blocks/button.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/title.css');
+@import url('./blocks/form.css');
+@import url('./blocks/social.css');
+@import url('./blocks/header.css');
+@import url('./blocks/logoipsum.css');
+@import url('./blocks/categories.css');
+@import url('./blocks/join.css');
+@import url('./blocks/burger.css');
+@import url('./blocks/author-info.css');
+@import url('./blocks/rects-container.css');
+@import url('./blocks/filters.css');
+@import url('./blocks/footer.css');
+
+/* index */
+@import url('./blocks/hero.css');
+@import url('./blocks/posts.css');
+@import url('./blocks/post-cards.css');
+@import url('./blocks/about-us.css');
+@import url('./blocks/why-started.css');
+@import url('./blocks/author-list.css');
+@import url('./blocks/feedback.css');
+
+/* posts-page */
+@import url('./blocks/featured-post.css');
+@import url('./blocks/all-posts.css');
+
+
+/* blog post */
+@import url('./blocks/blog-post.css');
+@import url('./blocks/recommendations.css');
+
+/* about-us */
+@import url('./blocks/au-hero.css');
+@import url('./blocks/au-mission.css');
+@import url('./blocks/au-team.css');
+@import url('./blocks/au-reason.css');
+
+/* category-info */
+@import url('./blocks/category-info.css');
+
+/* contact-us */
+@import url('./blocks/contact-us.css');
+
+/* author-page */
+@import url('./blocks/author-page.css');
+
+/* privacy-policy */
+@import url('./blocks/privacy-policy.css');
+
+/* media */
+@import url('./media.css');

@@ -1,0 +1,54 @@
+.recommendations {
+    margin-bottom: var(--section-gap);
+}
+
+.recommendations .grid {
+    column-gap: 32px;
+}
+
+.rec__list {
+    padding-bottom: 64px;
+    border-bottom: 1px solid #d4d4d6;
+}
+
+.rec__title {
+    margin-bottom: 64px;
+}
+
+.rec__item {
+    position: relative;
+    grid-column: 2 span;
+    padding: 20px;
+
+    transition: transform 0.3s ease;
+
+    max-width: 405px;
+}
+
+.rec__card {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rec-card__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.rec-card__p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--black);
+}
+
+@media (any-hover: hover) {
+    .rec__item:hover {
+        background-color: var(--light-yellow);
+        transform: scale(1.05);
+    }
+}

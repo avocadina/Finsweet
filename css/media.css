@@ -1,0 +1,630 @@
+@media (max-width: 1279.98px) {
+    :root {
+        --section-gap: 48px;
+
+        --container-offset: 32px;
+        --gap: 24px;
+    }
+
+    .posts__container {
+        flex-direction: column;
+    }
+
+    .featured-posts {
+        max-width: 100%;
+    }
+
+    .featured-post {
+        flex-direction: row;
+        gap: 20px;
+
+        padding: 32px 10px;
+    }
+
+    .featured-post img {
+        width: 50%;
+    }
+    
+    .featured-post__content {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .post__card {
+        align-items: center;
+        padding: 16px 0 16px 12px;
+    }
+
+    .post__item {
+        grid-column: 3 span;
+    }
+
+    .post__title {
+        font-size: clamp(1rem, 0.721rem + 1.14vw, 1.75rem);
+    }
+
+    .rects__container {
+        display: none;
+    }
+
+    .about-us__content {
+        flex-direction: column;
+        background-color: var(--white);
+        padding: 0;
+    }
+
+    .about__card {
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+
+        padding: 40px 20px;
+        background-color: var(--lavender);
+    }
+
+    .about__card .title {
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .about__card .read-more-btn {
+        background-color: var(--yellow);
+        color: var(--black);
+        justify-content: center;
+        padding: 16px 46px;
+    }
+
+    .about__descr {
+        max-width: 75%;
+        text-align: center;
+    }
+
+    .categories__list {
+        flex-wrap: wrap;
+    }
+
+    .list-of-authors__container .grid {
+        column-gap: var(--gap);
+        row-gap: var(--gap);
+    }
+    .authors_list {
+        flex-wrap: wrap;
+    }
+
+    .author {
+        grid-column: 3 span;
+    }
+
+    .logoipsum .grid {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+    }
+
+    .logoipsum__span {
+        grid-column: 1 span;
+
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .footer__form {
+        flex-direction: column;
+    }
+
+    .tags__list {
+        flex-direction: column;
+    }
+    
+    .tag {
+        text-align: center;
+    }
+
+    .all-posts__card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .au-mission__content {
+        flex-direction: row;
+    }
+
+    /* contact-form */
+    .cu__container {
+        padding: 0 106px;
+    }
+
+    .cu__span {
+        font-size: 14px;
+    }
+
+    .cu__form .form__input,
+    .cu__form .form__select,
+    .cu__form .form__btn {
+        width: 738px;
+    }
+
+}
+
+@media (max-width: 1024.98px) {
+    .burger__container {
+        display: block;
+    }
+    
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        width: 50%;
+        height: 10000px;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        visibility: hidden;
+        transition: visibility 0.3s ease, transform 0.3s ease;
+
+        padding: 20px 0;
+        background-color: var(--black);
+    }
+
+    .nav--active {
+        visibility: visible;
+        transform: none;
+
+    }
+
+    .nav__list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .featured-post {
+        flex-direction: column;
+        padding: 32px 30px;
+    }
+
+    .featured-post img {
+        width: 100%;
+    }
+
+    .featured-post__content {
+        width: 100%;
+    }
+
+    .why-started__container {
+        background: none;
+        background-color: var(--light-yellow);
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why-started__text {
+        margin: 0;
+    }
+
+    .feedback__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 16px;
+        gap: 32px;
+    }
+
+    .feedback__left {
+        padding: 0;
+        padding-bottom: 32px;
+        align-items: center;
+        text-align: center;
+
+        border: none;
+        border-bottom: 1px solid #cac7c1;
+    }
+
+    .feedback__right {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .featured__container {
+        flex-direction: column;
+    }
+
+    .featured__card {
+        max-width: 100%;
+    }
+
+    .featured__image {
+       display: none;
+    }
+
+    .all-posts__list {
+        padding-right: 0;
+    }
+
+    .all-posts__item {
+        padding: 48px 24px;
+        background-color: var(--light-yellow);
+    }
+
+    .all-posts__card {
+        flex-direction: column;
+    }
+
+    .categories__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* blog-post */
+
+    .rec__item {
+        grid-column: 3 span;
+    }
+
+    /* about-us */
+
+    .au-hero__content {
+        padding-left: 15px;
+    }
+
+    .au-hero__card {
+        max-width: 70%;
+    }
+
+    .au-hero__text {
+        max-width: 30%;
+        padding-bottom: 63px;
+    }
+
+    .au-mission__container {
+        gap: 12px;
+    }
+
+    .au-reason__container {
+        flex-direction: column;
+    }
+
+    .au-team__container {
+        flex-direction: column-reverse;
+        gap: 64px;
+    }
+
+    .au-reason__content,
+    .au-team__content {
+        max-width: 100%;
+    }
+
+
+    .au-mission__content .about__card {
+        padding: 15px 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    p {
+        font-size: 14px;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    /* join */
+
+    .join__title {
+        font-size: clamp(1.5rem, 0.964rem + 2.68vw, 2.25rem);
+    }
+
+    .join__text {
+        font-size: 12px;
+    }
+
+    /* form */
+
+    .footer__top {
+        display: none;
+    }
+
+    .footer__mid {
+        padding: 20px 16px;
+    }
+    
+    .footer__bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .form__btn {
+        padding: 8px 20px;
+    }
+
+    .footer-bottom__text span {
+        font-size: 10px;
+    }
+
+    .footer__form {
+        max-width: 300px;
+    }
+
+    .form__text {
+        font-size: clamp(1.5rem, 0.964rem + 2.68vw, 2.25rem);
+    }
+
+    .footer-form__input {
+        flex-direction: column;
+    }
+
+    .form__btn {
+        width: 100%;
+    }
+
+    /* about us */
+
+    .au-hero__card .title--48 {
+        font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+    }
+
+    .au-hero__content {
+        flex-direction: column-reverse;
+        padding-right: 0;
+    }
+
+    .au-hero__text {
+        display: none;
+        max-width: 100%;
+        text-align: justify;
+        padding: 16px;
+    }
+
+    .au-mission__content {
+        margin-top: 61px;
+    }
+
+    .au-mission__content .about__card {
+        max-width: 100%;
+    }
+
+    .au-mission__followers {
+        padding-left: 0;
+    }
+
+    .au-mission__statistics {
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 16px;
+    }
+
+    .au-mission__content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .au-team__container {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .au-team__content {
+        max-width: 100%;
+        text-align: justify;
+        padding: 40px 16px;
+        background-color: var(--light-yellow);
+    }
+
+    .au-reason__container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .au-reason__image {
+        position: relative;
+        padding: 0;
+    }
+
+    .au-reason__rect {
+        inset: 0;
+        top: 40%;
+        left: 94%;
+    }
+
+    .au-reason__content {
+        max-width: 100%;
+        text-align: justify;
+        padding: 40px 16px;
+
+        background-color: var(--lavender);
+    }
+
+    /* Blog post */
+    
+    .rec__item {
+        grid-column: 6 span;
+    }
+
+    .rec__item {
+        font-size: clamp(1rem, 0.464rem + 2.68vw, 1.75rem);
+    }
+
+    /* logoipsum */
+    .logoipsum {
+        display: none;
+    }
+
+    .logoipsum__span {
+        grid-column: 3 span;
+    }
+
+    /* about card */
+
+    .about__card .title--36 {
+        font-size: clamp(1.5rem, 0.964rem + 2.68vw, 2.25rem);
+    }
+
+    .about__descr {
+        font-size: 12px;
+    }
+
+    /* authors-list */
+
+    .author {
+        grid-column: 6 span;
+    }
+
+
+    /* feedback */
+
+    .right__bottom {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .feedback__title {
+        font-size: clamp(1rem, 0.643rem + 1.79vw, 1.5rem);
+        margin-bottom: 24px;
+    }
+
+    /* posts */
+
+    .post__image {
+        display: none;
+    }
+
+    .post__item {
+        grid-column: 6 span;
+    }
+
+    /* hero */
+
+    .hero {
+        height: max-content;
+        padding: 60px 0;
+    }
+
+    .hero__content {
+        padding: 0;
+    }
+
+    .hero__text .title--56 {
+        font-size: clamp(2rem, 0.929rem + 5.36vw, 3.5rem);
+    }
+
+    /* why-started */
+
+    .why-started__text .title--48 {
+        font-size: clamp(1.5rem, 0.429rem + 5.36vw, 3rem);
+    }
+    
+    /* category */
+    .category__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .category__filters {
+        display: none;
+    }
+
+    .category__wrapper .all-posts__card {
+        padding: 0;
+    }
+
+    .card__content .title--36 {
+        font-size: clamp(1.5rem, 0.964rem + 2.68vw, 2.25rem);
+    }
+
+    .card__content .card__descr {
+        font-size: 12px;
+    }
+
+    .category__heading {
+        padding: 0;
+    }
+
+    .category__heading .title--56 {
+        font-size: clamp(2rem, 0.929rem + 5.36vw, 3.5rem);
+    }
+
+    .category__heading .category__descr {
+        font-size: 12px;
+    }
+
+    /* contact-us */
+    .cu__container {
+        padding: 0 15px;
+    }
+
+    .cu__form .form__input,
+    .cu__form .form__select,
+    .cu__form .form__btn {
+        max-width: calc(100% - 40px);
+    }
+
+    /* about-us */
+    .au-hero__card {
+        padding: 20px 10px;
+        width: calc(100% - 30px);
+    }
+
+    .au-mission__container  {
+        width: calc(100% - 30px);
+        height: 100%;
+    }
+
+    .au-team__image {
+        padding-left: 27px;
+    }
+
+    .au-team__image svg {
+        width: 52px;
+        height: 53px;
+    }
+
+    .au-team__image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .au-reason__image {
+        padding-right: 13px;
+    }
+
+    .au-reason__image svg {
+        width: 37px;
+        height: 37px;
+    }
+
+    .au-reason__image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* footer */
+
+    .footer__mid {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__form {
+        max-width: 100%;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .form__text {
+        text-align: center;
+    }
+}

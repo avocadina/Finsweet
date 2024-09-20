@@ -1,0 +1,62 @@
+.about-us {
+    margin-bottom: var(--section-gap);
+}
+
+.about-us__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.about__descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--medium-grey);
+}
+
+
+.about-us__content {
+    display: flex;
+    gap: 61px;
+
+    padding: 96px 78px;
+    padding-right: 108px;
+
+    background-color: var(--lavender);
+}
+
+.about__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    transition: var(--main-trs);
+    z-index: 10;
+
+    max-width: calc((100% - (78px + 108px))/(2));
+}
+
+.about__card .title {
+    max-width: 494px;
+}
+
+.about__card .title--16 {
+    margin-bottom: 8px;
+    color: var(--black)
+}
+
+.about__card .read-more-btn {
+    background-color: inherit;
+    color: var(--purple);
+
+    padding: 0;
+    justify-content: flex-start;
+}
+
+@media (any-hover: hover) {
+    .about__card:hover {
+        transform: scale(1.05);
+    }
+}

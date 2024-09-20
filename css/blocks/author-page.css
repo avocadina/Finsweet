@@ -1,0 +1,62 @@
+.author-page {
+    margin-bottom: var(--section-gap);
+}
+
+.ap__container {
+    padding-right: 208px;
+    padding-left: 223px;
+}
+
+.ap__preview {
+    background-color: var(--lavender);
+    padding-right: 208px;
+    padding-left: 238px;
+
+    margin-bottom: var(--section-gap);
+}
+
+.preview__content {
+    display: flex;
+    flex-direction: row;
+    padding: 128px 0;
+    padding-right: 72px;
+    gap: 32px;
+}
+
+.preview__image img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preview__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.preview__par {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--medium-grey);
+}
+
+.ap__rects {
+    justify-content: flex-start;
+}
+
+.ap__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.ap__posts .all-posts__list {
+    padding-right: 0;
+}
+
+.ap__heading {
+    padding-left: 15px;
+}
