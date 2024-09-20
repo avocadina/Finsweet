@@ -20,7 +20,7 @@
     height: 2px;
     background-color: var(--light);
     transform: translateX(-50%);
-    transition: opacity 0.9s linear, transform 0.9s linear;
+    transition: opacity 0.3s linear, transform 0.6s linear;
 }
 
 .burger__line:first-child {
